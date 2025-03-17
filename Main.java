@@ -1,3 +1,13 @@
+//Driver	Single Responsibility Principle, Dependency Inversion Principle	Manages driver data,
+//depends on the abstraction RallyCar instead of concrete implementations.
+//RallyCar and Subclasses	Open/Closed Principle, Liskov Substitution Principle	
+//Abstract class allows extending new car types, subclasses seamlessly replace the parent class.
+//ChampionshipManager	Singleton Pattern, Static Members	
+//Private constructor + static instance ensures a single global instance; static members track global data.
+//RaceResult Interface	Interface Segregation Principle, 
+//Dependency Inversion Principle	Minimizes interface methods to essentials; high-level modules depend on abstractions.
+//ChampionshipStatistics	Single Responsibility Principle, Static Methods	Dedicated to statistical logic only; 
+//methods are called directly via the class without instantiation.
 import java.util.List;
 import java.util.Map;
 
